@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header and Footer Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 20px;
+      overflow: hidden;
+    }
+    .card-header, .card-footer {
+      background-color: #f7f7f7;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: 1px solid #ccc;
+    }
+    .card-body {
+      padding: 20px;
+    }
+    .card-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .card-text {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    .header-section, .footer-section {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    .header-section h1, .footer-section h5 {
+      margin: 0;
+    }
+    .header-section nav ul, .footer-section ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+    }
+    .header-section nav ul li, .footer-section ul li {
+      margin-right: 15px;
+    }
+    .header-section nav ul li a, .footer-section ul li a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    .header-section nav ul li a:hover, .footer-section ul li a:hover {
+      text-decoration: underline;
+    }
+    .footer-section {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="card">
+  <div class="card-header">
+    <div class="header-section">
+      <h1>Live Widget(Test)</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<!-- Widget -->
+<div id="apj_widget_stream" data-id="apj_embedded_102702129138064"></div>
+<script defer src="https://widget.mypersonalizedjewelry.us/widget/js/bundle.min.js"></script>
+
+<!-- Footer -->
+<div class="card">
+  <div class="card-footer">
+    <div class="footer-section company-info">
+      <h5>Company Name</h5>
+      <p>You can use this one for testing, its cartja with live widget code</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: Avalontester1@gmail.com</p>
+    </div>
+    <div class="footer-section links">
+      <h5>Quick Links</h5>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section social-media">
+      <h5>Follow Us</h5>
+      <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
